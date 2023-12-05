@@ -110,5 +110,10 @@
         background-color: #081974;  
         align-items: center;
     }
+
+    .carousel{
+        margin-top: -80px;
+        margin-left: 18px;
+    }
 }
 

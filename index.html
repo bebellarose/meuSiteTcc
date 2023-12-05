@@ -10,6 +10,12 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/darkmode.css">
     <link rel="stylesheet" href="css/caixasfotos.css">
+    <link rel="stylesheet" href="css/carrosel.css">
+<!--
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+-->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
 </head>
 <body>
     
@@ -26,8 +32,9 @@
                 <div class="navInfo">
                     <li><a href="#sobre"><strong>Sobre nós</strong> </a></li>
                     <li><a href="#equipe"><strong>Equipe</strong> </a></li>
-                   <li><a href="#como jogar"><strong>Como Jogar?</strong></a></li>
-                   <li><a href="#regras"><strong>Regras</strong></a></li>
+                    <li><a href="#foto"><strong>Fotos do jogo</strong></a></li>
+                    <li><a href="#como jogar"><strong>Como Jogar?</strong></a></li>
+                    <li><a href="#regras"><strong>Regras</strong></a></li>
                 </div>
             </div>
 
@@ -61,6 +68,7 @@
                 <a href="#sobre">Sobre nós</a>
                 <a href="#equipe">Equipe</a>
                 <a href="#como jogar">Como jogar?</a>
+                <a href="#foto">Fotos do jogo</a>
                 <a href="#regras">Regras</a>
             </div>
 
@@ -161,25 +169,66 @@
                         <p>A área de produção cuida dos produtos ou serviços criados pela empresa, o design e a maneira que os produtos serão produzidos. Tudo que for relacionado à produção tem, portanto, a ver com este setor.</p>
                     </div>
                 </div>
-
             </div>
+
+            <h2 id="foto">Fotos do jogo</h2>
+            <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="imagem/WhatsApp Image 2023-12-04 at 22.01.31.jpeg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="imagem/WhatsApp Image 2023-12-04 at 22.01.32 (1).jpeg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="imagem/WhatsApp Image 2023-12-04 at 22.01.32.jpeg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
 
             <div class="texto2">
                 <h2 id="como jogar">Como jogar?</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni quaerat corrupti quis nisi sunt, rem ducimus delectus unde quidem alias aliquid quasi distinctio blanditiis, deleniti reprehenderit incidunt quam repudiandae vel.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni quaerat corrupti quis nisi sunt, rem ducimus delectus unde quidem alias aliquid quasi distinctio blanditiis, deleniti reprehenderit incidunt quam repudiandae vel.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni quaerat corrupti quis nisi sunt, rem ducimus delectus unde quidem alias aliquid quasi distinctio blanditiis, deleniti reprehenderit incidunt quam repudiandae vel.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni quaerat corrupti quis nisi sunt, rem ducimus delectus unde quidem alias aliquid quasi distinctio blanditiis, deleniti reprehenderit incidunt quam repudiandae vel.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni quaerat corrupti quis nisi sunt, rem ducimus delectus unde quidem alias aliquid quasi distinctio blanditiis, deleniti reprehenderit incidunt quam repudiandae vel.</p>
+                <p>
+                    <h4>Componentes</h4>
+
+                        <li>3 tabuleiros</li>
+                        <li>2 baralhos</li>
+                    
+                    <h4>Objetivo</h4>
+                    <li>A pessoa tem que responder todas as perguntas para avançar as casas e chegar no final do tabuleiro.</li>
+                    <li>1 dado</li>
+                    <li>6 peões</li>
+                    <li>IDADE: A Partir de 8 anos</li>
+                    <li>PARTICIPANTES: De 2 a 6 jogadores</li>
+
+                    <h4>Cartas</h4>
+                    <li>As cartas são separadas por 15 de desempenho, 18 de justificativa e 19 perguntas, cada carta vem com a sua categoria atrás.</li>
+                    
+                    <h4>Preparação</h4>
+                    <li>O jogo pode ser jogado em dois a seis participantes.</li>
+                    
+                    <h4>OBS:</h4>
+                    
+                    <li>Quanto mais jogadores mais animado e competitivo o jogo fica, cada jogador joga individualmente com o foco de chegar ao final evitando o máximo de obstáculo e acertando as perguntas.</li>
+                    
+                    <h4>VENCEDOR</h4>
+                    
+                    <li>Para ganhar o jogo você precisar passar pelas casas e se tiver sorte pegar o máximo de atalhos possíveis, subindo de andar e ultrapassando os outros jogadores.</li>
+                </p>
             </div>
 
             <div class="texto2">
                 <h2 id="regras">Regras</h2>
                 <p>
                     <ul class="texto2">
-                        <li>Contém 15 cartas de DESEMPENHO e 18 cartas de JUSTIFICATIVA.</li>
-
-                        <li>Contém 33 cartas ao todo (DESEMPENHO E JUSTIFICATIVA).</li>
                         
                         <li>O jogo contém 19 perguntas ao todo.</li>
                         
@@ -209,29 +258,29 @@
             <div class="listanome">
                 <section class="setor1">
                     <h4>Adminitração</h4>
-                    <p class="nomesequipe">Julia Oliveira</p>
-                    <p class="nomesequipe">Yasmim Bitencourt</p>
-                    <p class="nomesequipe">Beatriz Marques</p>
+                    <p class="nomesequipe"><a target="_blank" href="https://www.linkedin.com/in/j%C3%BAlia-oliveira-9ba482265/">Julia Oliveira</a></p>
+                    <p class="nomesequipe"><a target="_blank" href="http://linkedin.com/in/yasmim-bitencourt-0204042a1/">Yasmim Bitencourt</a></p>
+                    <p class="nomesequipe"><a target="_blank" href="https://www.linkedin.com/in/beatriz-marques-63b4042a1?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">Beatriz Marques</a></p>
                 </section>
 
                 <section class="setor2">
                     <h4>Marketing</h4>
-                    <p class="nomesequipe">Isabella Souza</p>
-                    <p class="nomesequipe">Jade Teixeira</p>
+                    <p class="nomesequipe"><a target="_blank" href="https://www.linkedin.com/in/isabella-ara%C3%BAjo-3a036522a/">Isabella Souza</a></p>
+                    <p class="nomesequipe"><a target="_blank" href="https://www.linkedin.com/in/jade-teixeira-3605272a1/">Jade Teixeira</a></p>
                 </section>
 
                 <section class="setor3">
                     <h4>Financeiro</h4>
-                    <p class="nomesequipe">Pedro Paz</p>
-                    <p class="nomesequipe">Nathany de França</p>
-                    <p class="nomesequipe">Karynna Velloz </p>
+                    <p class="nomesequipe"><a target="_blank" href="https://www.linkedin.com/in/pedro-paz-976135270?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">Pedro Paz</a></p>
+                    <p class="nomesequipe"><a target="_blank" href="https://www.linkedin.com/in/nathany-dias-063667280?trk=contact-info">Nathany de França</a></p>
+                    <p class="nomesequipe"><a target="_blank" href="http://www.linkedin.com/in/karynna-velloz-b914032a1">Karynna Velloz</a></p>
                 </section>
 
                 <section class="setor4">
                     <h4>Produção</h4>
-                    <p class="nomesequipe">Mirella Nejo</p>
-                    <p class="nomesequipe">Manuelle Fialho</p>
-                    <p class="nomesequipe">Gabriel Paiva</p>
+                    <p class="nomesequipe"><a target="_blank" href="https://www.linkedin.com/in/mirella-lima-71a4a4274/">Mirella Nejo</a></p>
+                    <p class="nomesequipe"><a target="_blank" href="https://br.linkedin.com/in/manuelle-fialho-488103296">Manuelle Fialho</a></p>
+                    <p class="nomesequipe"><a target="_blank" href="https://www.linkedin.com/in/gabriel-paiva-590937270?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">Gabriel Paiva</a></p>
                 </section>
             </div>
 
@@ -239,7 +288,7 @@
                 <div>
                 <h4><strong>Desenvolvedora</strong></h4>
                     <section class="desen2">
-                        <p>Isabella Souza</p>
+                        <p><a target="_blank" href="https://github.com/bebellarose">Isabella Souza</a></p>
                     </section>
 
                     <div id="footer_social_media">
@@ -251,8 +300,18 @@
                 </div>       
             </div>
     </footer>
-
+    <script src="js/carrosel.js"></script>
     <script src="js/script.js"></script>
     <script src="https://kit.fontawesome.com/998c60ef77.js" crossorigin="anonymous"></script>
+<!--
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+-->
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
 </body>
 </html>

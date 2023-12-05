@@ -49,3 +49,11 @@ footer{
     margin-top: 1rem;
 }
 
+a{
+    color: #f5f5f5;
+    text-decoration: none;
+}
+
+a:hover{
+    color: black;
+}
