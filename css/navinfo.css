@@ -47,7 +47,7 @@
 }
 
 .overlay{
-    height: 50%;
+    height: 60%;
     background-color: #081974;
     z-index: 9;
     position: fixed;
